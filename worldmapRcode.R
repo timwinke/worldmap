@@ -4,12 +4,13 @@
 # Author: Tim Winke (tim.winke@gmail.com)
 # Created: 23/10/2014
 
-#install.packages(c("dplyr", "ggplot2", "RCurl", "rworldmap", "WDI"))
+#install.packages(c("dplyr", "ggplot2", "RCurl", "rworldmap", "WDI", "mapproj"))
 library("dplyr")   # data manipulation
 library("ggplot2") # visualsation
 library("RCurl") # network client interface
 library("rworldmap") # get world map with iso codes
 library("WDI") # World Bank indicators
+library("mapproj") # Converts latitude/longitude into projected coordinates
 
 
 #establish https connection to download csv file
